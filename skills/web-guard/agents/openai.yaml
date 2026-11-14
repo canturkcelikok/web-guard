@@ -1,0 +1,14 @@
+interface:
+  display_name: Web Guard
+  short_description: Web güvenlik denetimi, düzeltme ve yeniden test
+  default_prompt: $web-guard ile sahibi olduğum web sitesini denetle, bulguları raporla,
+    erişim sağlandığında düzelt ve yeniden test et.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
